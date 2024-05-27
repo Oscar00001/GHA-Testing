@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+      -uses: Marta83/funny-commnent-actions@v2.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIPHY_API_KEY: ${{ secrets.GIPHY_TOKEN }}
+          comment_type: 'chuck'
+
