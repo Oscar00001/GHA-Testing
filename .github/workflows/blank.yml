@@ -34,6 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo second test line
       
       - uses: Marta83/funny-comment-action@v2.1
         with:
